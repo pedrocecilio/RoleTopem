@@ -1,0 +1,112 @@
+section {
+    text-align: center;
+    
+}
+
+* p{
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.button{
+    background-color: gray;
+    width: 200px;
+    border-radius: 14px;
+    font-size: 18px;
+    color: black;
+
+}
+header #cabeçalho{
+    width: 100%;
+    position: absolute;
+    display:flex;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+}
+
+#logo{
+    width: 120px;
+    margin: 10px 0 0 10px;
+}
+.icone-x{
+margin: 10px 50px 0 0;
+font-size: 60px !important;
+}
+#redes-sociais{
+    margin: 10px 0 0 0;
+    
+}
+
+#redes-sociais img{
+    width: 70px;
+}
+#img-home{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+
+#galeria-de-fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 640px;
+}
+
+.foto{
+    width: 48%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+
+#historia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: #7D0093;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+    width: 100%;
+
+}
+
+.comeback{
+    font-size: 50px !important;
+    color: white;
+    position: absolute;
+    right: 30px;
+    bottom: 150px;
+}
+
+.border{
+    border: 1.5px solid #7D0093;
+}
+    
+footer p {
+    font-size: 25px;
+}
+
+#inicio p{
+    font-size: 20px;
+}

@@ -1,0 +1,53 @@
+header #cabeçalho{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 120px;
+    margin: 10px 0 0 10px;
+}
+.icone-x{
+margin: 10px 50px 0 0;
+font-size: 60px !important;
+color: white
+}
+#redes-sociais{
+    margin: 10px 0 0 0;
+}
+
+#redes-sociais img{
+    width: 60px;
+}
+
+#img-contato{
+    width: 100%;
+}
+
+body{
+    background-image: url(img/fundo-login.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+input{
+    font-size: xx-large
+}
+
+.cadastro{
+    font-size: 40px;
+}
+
+button{
+
+    background-color: gray;
+    width: 200px;
+    border-radius: 14px;
+    font-size: 24px;
+    color: black;
+}
+
+form{
+    margin: 300px;
+}
