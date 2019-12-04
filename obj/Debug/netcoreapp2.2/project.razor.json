@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopMVC\\RoleTopMVC.csproj",
+  "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopem\\RoleTopMVC.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-2.1",
     "LanguageVersion": "2.1",
@@ -2961,43 +2961,43 @@
   "RootNamespace": "RoleTopMVC",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopMVC\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopem\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopMVC\\Views\\Shared\\_CookieConsentPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopMVC\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopem\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopMVC\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopMVC\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopem\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopMVC\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopem\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopMVC\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopem\\Views\\Shared\\_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopMVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopem\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\44781915817\\Desktop\\RoleTopem\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],
