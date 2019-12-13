@@ -28,11 +28,6 @@ C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\RoleTopMVC.Views.
 C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\RoleTopMVC.dll
 C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\RoleTopMVC.pdb
 C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\RoleTopMVC.csproj.CopyComplete
-C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Shared\HeaderHomePage.g.cshtml.cs
-C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Cadastro\Cadastro.g.cshtml.cs
-C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Contato\Contato.g.cshtml.cs
-C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Galeria\Galeria.g.cshtml.cs
-C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Historia\Historia.g.cshtml.cs
 C:\Users\44781915817\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.csprojAssemblyReference.cache
 C:\Users\44781915817\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.csproj.CoreCompileInputs.cache
 C:\Users\44781915817\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.RazorAssemblyInfo.cache
@@ -68,3 +63,12 @@ C:\Users\44781915817\Desktop\RoleTopMVC\bin\Debug\netcoreapp2.2\RoleTopMVC.Views
 C:\Users\44781915817\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.Views.pdb
 C:\Users\44781915817\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\RoleTopMVC.csproj.CopyComplete
 C:\Users\44781915817\Desktop\RoleTopMVC\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_HeaderHomePage.g.cshtml.cs
+C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_HeaderHomePage.g.cshtml.cs
+C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Administrador\DashBoard.g.cshtml.cs
+C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Contrate\Index.g.cshtml.cs
+C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Cadastro\Index.g.cshtml.cs
+C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Contato\Index.g.cshtml.cs
+C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Galeria\Index.g.cshtml.cs
+C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Historia\Index.g.cshtml.cs
+C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Erro.g.cshtml.cs
+C:\Users\44781915817\Desktop\RoleTopem\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Sucesso.g.cshtml.cs

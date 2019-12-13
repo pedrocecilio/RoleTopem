@@ -1,0 +1,10 @@
+@model RoleTopem.ViewModels.RespostaViewModel
+<main>
+    <h2>
+        @Model.NomeView Parabens, seu cadastro foi feito com sucesso!
+    </h2>
+    <p>
+        @Model.Mensagem
+        <a asp-controller= "Home" asp-action="Index">Voltar para a Home</a> 
+    </p>
+</main>

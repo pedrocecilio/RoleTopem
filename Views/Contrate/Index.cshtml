@@ -1,0 +1,55 @@
+
+
+@model RoleTopem.ViewModels.PedidoViewModel
+<main>
+        <h2>Pede aí, @Model.NomeUsuario!</h2>
+        <form method="POST" action='@Url.Action("Registrar","Pedido")'>
+            <div>
+                <label for="nome">Nome Completo</label>
+                <br />
+                <input id="nome" type="text" maxlength="20" minlength="3" value="@Model.Cliente.Nome" name="nome"/>
+            </div>
+
+            <div>
+                <label for="endereco">Endereço</label>
+                <br />
+                <input id="endereco" type="text" maxlength="20" minlength="3" value="@Model.Cliente.Endereco" name="endereco"/>
+            </div>
+
+            <div>
+                <label for="telefone">Telefone para contato</label>
+                <br />
+                <input id="telefone" type="text" placeholder="11 12345 6789" value="@Model.Cliente.Telefone" name="telefone"/>
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <br />
+                <input id="email" type="email" name="email" value="@Model.Cliente.Email"/>
+            </div>
+
+            <div class="double-field">
+                <div>
+                    <label for="Evento">Evento</label>
+                    <select id="Evento" name="TipoEvento" required>
+                        <option value="" disabled selected>Selecione</option>
+                        @foreach (var evento in Model.Eventos)
+                        {
+                            <option value=@evento.TipoEvento>@evento.TipoEvento</option>
+                        }
+                    </select>
+                </div>
+                <div>
+                    <label for="Inicio">Inicio</label>
+                    <input id = "inicio" type="datetime" name = "day" required/>
+                </div>
+
+                 <div>
+                    <label for="Termino">Termino</label>
+                    <input id = "termino" type="datetime" name = "day" required/>
+                </div>
+            </div>
+            <input type="submit" value="Finalizar pedido!" />
+        </form>
+
+    </main>

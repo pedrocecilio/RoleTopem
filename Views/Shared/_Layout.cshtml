@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RoleTop</title>
-    <link href="~/img/logo.png" rel="icon" type="image/x-icon"/>
+   
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Londrina+Solid:900%7COpen+Sans" rel="stylesheet">
     <link href="~/css/style.css" rel="stylesheet" type="text/css">
@@ -36,14 +36,14 @@
                     </li>
                     <!-- PASSO 4 - Adicione essa class="bt-common-menu" nas suas li -->
                     <!-- PASSO 5 - Adicione o onclick="toggleMobileMenu()" nas tags a -->
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Home" asp-action="Index" class="active"><img id="logo" src="img/logo.png" /></a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#Galeria'>Galeria</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#Contrate'>Contrate</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#historia'>História</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#Contato'>Contato</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Home" asp-action="Index" class="active">Home</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Galeria" asp-action="Index">Galeria</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Contrate" asp-action="Index">Contrate</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Historia" asp-action="Index">História</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()"  asp-controller="Contato" asp-action="Index">Contato</a></li>
                     @if(string.IsNullOrEmpty(@Model.UsuarioEmail))
                     {
-                        <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Cliente" asp-action="Login">Login/Cadastro</a></li>
+                        <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Cadastro" asp-action="Index">Login/Cadastro</a></li>
                     }
                     else
                     {
@@ -51,12 +51,10 @@
                         <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Cliente" asp-action="Historico">Pedidos</a></li>
                     }
 
-                    <li><a id="bt-peca_ja" asp-controller="Pedido" asp-action="Index">Peça já!</a></li>
                 </ul>
             </div>
         </nav>
-        <!-- Comentário para eu não esquecer de recolocar aqui o logo-area -->
-        @if("Home".Equals(@Model.NomeView))
+             @if("Home".Equals(@Model.NomeView))
         {
             Html.RenderPartial("_HeaderHomePage");
         }

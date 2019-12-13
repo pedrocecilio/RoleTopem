@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\44781915817\\Desktop\\RoleTopMVC\\RoleTopMVC.csproj": {}
+    "C:\\Users\\44781915817\\Desktop\\RoleTopem\\RoleTopMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\44781915817\\Desktop\\RoleTopMVC\\RoleTopMVC.csproj": {
+    "C:\\Users\\44781915817\\Desktop\\RoleTopem\\RoleTopMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\44781915817\\Desktop\\RoleTopMVC\\RoleTopMVC.csproj",
+        "projectUniqueName": "C:\\Users\\44781915817\\Desktop\\RoleTopem\\RoleTopMVC.csproj",
         "projectName": "RoleTopMVC",
-        "projectPath": "C:\\Users\\44781915817\\Desktop\\RoleTopMVC\\RoleTopMVC.csproj",
+        "projectPath": "C:\\Users\\44781915817\\Desktop\\RoleTopem\\RoleTopMVC.csproj",
         "packagesPath": "C:\\Users\\44781915817\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\44781915817\\Desktop\\RoleTopMVC\\obj\\",
+        "outputPath": "C:\\Users\\44781915817\\Desktop\\RoleTopem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

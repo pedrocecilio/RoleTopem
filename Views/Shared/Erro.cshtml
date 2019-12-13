@@ -1,0 +1,10 @@
+@model RoleTopem.ViewModels.RespostaViewModel
+<main>
+    <h2>
+        @Model.NomeView Que Pena, seu cadastro Não foi Concluido!
+    </h2>
+    <p>
+        @Model.Mensagem
+        <a asp-controller= "Home" asp-action="Index">Voltar para a Home</a> 
+    </p>
+</main>
