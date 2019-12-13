@@ -36,11 +36,11 @@
                     </li>
                     <!-- PASSO 4 - Adicione essa class="bt-common-menu" nas suas li -->
                     <!-- PASSO 5 - Adicione o onclick="toggleMobileMenu()" nas tags a -->
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Home" asp-action="Index" class="active">Principal</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#hamburgueres'>Hamburgueres</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#shakes'>Shakes</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Home" asp-action="Index" class="active"><img id="logo" src="img/logo.png" /></a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#Galeria'>Galeria</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#Contrate'>Contrate</a></li>
                     <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#historia'>História</a></li>
-                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#local'>Local</a></li>
+                    <li class="bt-common-menu"><a onclick="toggleMobileMenu()" href='@Url.Action("Index", "Home")#Contato'>Contato</a></li>
                     @if(string.IsNullOrEmpty(@Model.UsuarioEmail))
                     {
                         <li class="bt-common-menu"><a onclick="toggleMobileMenu()" asp-controller="Cliente" asp-action="Login">Login/Cadastro</a></li>

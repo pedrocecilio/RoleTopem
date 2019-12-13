@@ -2,7 +2,7 @@
                     NAV
 **********************************************/
 nav {
-    background-color: #ff9933;
+    background-color: whitesmoke;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -88,6 +88,8 @@ h1{
 #logo{
     width: 120px;
     margin: 10px 0 0 10px;
+    position: absolute
+
 }
 .icone-x{
 margin: 10px 50px 0 0;
